@@ -66,7 +66,7 @@ public class Computador {
     }
 
     public void checkUp(){
-        if (this.estado == true){
+        if (this.getEstado()== true){
             System.out.println("O computador está ligado? "+ this.getEstado());
         }else {
             System.out.println("O computador está ligado? "+ this.getEstado());
