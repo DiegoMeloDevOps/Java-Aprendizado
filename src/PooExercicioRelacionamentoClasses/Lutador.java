@@ -13,6 +13,7 @@ public class Lutador {
         this.setDerrotas(derrotas);
         this.setEmpates(empates);
         this.setPeso(peso);
+        this.setAltura(altura);
     }
 
     public double getAltura() {
@@ -118,6 +119,7 @@ public class Lutador {
         System.out.println("Ganhou: "+this.getVitorias());
         System.out.println("Perdeu: "+this.getDerrotas());
         System.out.println("Empate: "+this.getEmpates());
+        System.out.println("========================================");
     }
     public void apresentar(){
         System.out.println("======== Ficha Técnica ===========");
