@@ -75,8 +75,18 @@ public class Main
                 case "somar":
                     System.out.println("===== SOMAR ====");
                     System.out.print("Digite o primeiro valor: ");
+                    while (!scanner.hasNextDouble()){
+                        System.out.println("Digite somente numeros !!!");
+                        scanner.next();
+                        System.out.print("Digite o primeiro valor: ");
+                    }
                     so.a = scanner.nextDouble();
                     System.out.print("Digite o segundo valor: ");
+                    while(!scanner.hasNextDouble()){
+                        System.out.println("Digite somente numeros !!!");
+                        scanner.next();
+                        System.out.print("Digite o segundo valor: ");
+                    }
                     so.b = scanner.nextDouble();
                     resultado = so.soma(so.a, so.b);
                     System.out.println("O resultado de "+so.a+" + "+so.b+" = "+resultado);
@@ -85,8 +95,18 @@ public class Main
 
                 case "subtrair":
                     System.out.print("Digite o primeiro valor: ");
+                    while(!scanner.hasNextDouble()){
+                        System.out.println("Digite somente numeros !!!");
+                        scanner.next();
+                        System.out.print("Digite o primeiro valor: ");
+                    }
                     su.a = scanner.nextDouble();
                     System.out.print("Digite o segundo valor: ");
+                    while(!scanner.hasNextDouble()){
+                        System.out.println("Digite somente numeros !!!");
+                        scanner.next();
+                        System.out.print("Digite o segundo valor: ");
+                    }
                     su.b = scanner.nextDouble();
                     resultado = su.subtrai(su.a , su.b);
                     System.out.println("O resultado de "+su.a+" - "+su.b+" = "+resultado);
@@ -94,8 +114,19 @@ public class Main
 
                 case "dividir":
                     System.out.print("Digite o primeiro valor:");
+                    while (!scanner.hasNextDouble()){
+                        System.out.println("Digite somente numeros !!!");
+                        scanner.next();
+                        System.out.print("Digite o primeiro valor:");
+                    }
                     di.a = scanner.nextDouble();
                     System.out.print("Digite o segundo valor:");
+                    while (!scanner.hasNextDouble()){
+                        System.out.println("Digite somente numeros !!!");
+                        scanner.next();
+                        System.out.print("Digite o segundo valor:");
+                    }
+
                     di.b = scanner.nextDouble();
                     resultado = di.dividi(di.a, di.b);
                     System.out.println("O resultado de "+di.a+" / "+di.b+" = "+ resultado);
@@ -103,8 +134,18 @@ public class Main
 
                 case "multiplicar":
                     System.out.print("Digite o primeiro valor: ");
+                    while (!scanner.hasNextDouble()){
+                        System.out.println("Digite somente numeros !!!");
+                        scanner.next();
+                        System.out.print("Digite o Primeiro valor: ");
+                    }
                     mu.a = scanner.nextDouble();
                     System.out.print("Digite o segundo valor: ");
+                    while (!scanner.hasNextDouble()){
+                        System.out.println("Digite somente numeros !!!");
+                        scanner.next();
+                        System.out.println("Digite o segundo valor: ");
+                    }
                     mu.b = scanner.nextDouble();
                     resultado = mu.multiplica(mu.a, mu.b);
                     System.out.println("O resultado de "+mu.a+" x "+mu.b+" = "+ resultado);
