@@ -2,7 +2,7 @@ package fundamentos;
 
 import java.util.Scanner;
 
-public class Exercicio03 {
+public class Tabuada {
     static void main() {
 
     int a,b;

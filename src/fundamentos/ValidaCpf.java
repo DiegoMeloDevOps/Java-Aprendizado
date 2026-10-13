@@ -42,7 +42,7 @@ class validadorCpf{
 
 }
 
-public class Exercicio06 {
+public class ValidaCpf {
     static void main() {
 
         String valorCampo;

@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class Exercicio05 {
+public class MenorNumeroArray {
     static void main() {
 
         int idade[] = {60, 40, 50, 30};

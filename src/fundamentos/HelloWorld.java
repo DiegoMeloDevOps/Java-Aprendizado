@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class Exercicio01 {
+public class HelloWorld {
     static void main() {
 
         System.out.println("Olá Mundo!");

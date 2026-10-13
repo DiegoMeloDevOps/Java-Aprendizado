@@ -3,7 +3,7 @@ package fundamentos;
 
 import java.util.Scanner;
 
-public class Exercicio02 {
+public class TiposPrimitivos {
     static void main() {
 
         String Nome; // string do tipo texto

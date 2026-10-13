@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class Exercicio04 {
+public class ArrayCarros {
     static void main() {
 
 
