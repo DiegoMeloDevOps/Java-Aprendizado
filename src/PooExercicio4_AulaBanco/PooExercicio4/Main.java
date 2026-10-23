@@ -1,6 +1,4 @@
-package PooExercicio4_AulaBanco.PooExercicio4;
-
-import java.util.Scanner;
+package Poo.PooExercicio4;
 
 public class Main {
     static void main() {

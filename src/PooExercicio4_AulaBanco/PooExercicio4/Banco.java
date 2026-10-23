@@ -1,4 +1,4 @@
-package PooExercicio4_AulaBanco.PooExercicio4;
+package Poo.PooExercicio4;
 
 
 public class Banco {
