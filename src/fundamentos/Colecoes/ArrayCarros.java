@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.Colecoes;
 
 public class ArrayCarros {
     static void main() {

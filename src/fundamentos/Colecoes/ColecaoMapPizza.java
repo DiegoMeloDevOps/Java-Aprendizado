@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.Colecoes;
 import java.util.*;
 
 public class ColecaoMapPizza {
